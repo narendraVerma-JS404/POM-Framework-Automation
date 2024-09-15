@@ -7,7 +7,7 @@ import com.hrms.utility.Base_Class;
 import com.hrms.utility.Log;
 
 public class Login_Page extends Base_Class{
-
+        
 	//Objects/elements
 	static By txt_loginname = By.name("txtUserName");
 	static By txt_password  = By.name("txtPassword");
@@ -21,3 +21,4 @@ public class Login_Page extends Base_Class{
 	Log.info("Login completed");
 	}
 }
+//Pull is also completed.........

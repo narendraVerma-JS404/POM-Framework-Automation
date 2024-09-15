@@ -10,8 +10,8 @@ public class Login_Page extends Base_Class{
 
 	//Objects/elements
 	static By txt_loginname = By.name("txtUserName");
-	static By txt_password = By.name("txtPassword");
-	static By btn_login = By.name("Submit");
+	static By txt_password  = By.name("txtPassword");
+	static By btn_login     = By.name("Submit");
 	//Fun:
 	public static void login(String un,String pw) {
 	driver.findElement(txt_loginname).sendKeys(un);

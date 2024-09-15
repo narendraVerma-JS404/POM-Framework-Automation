@@ -18,8 +18,8 @@ public class TC001 extends Base_Class{
 	   //Test Stesp
 	Base_Class.openApplication();
 	Login_Page.login("nareshit", "nareshit");
-	//VerifyPage.verifyTitle("HRMS");
-//	VerifyPage.verifyTitle("OrangeHRM");
+	VerifyPage.verifyTitle("HRMS");
+	VerifyPage.verifyTitle("OrangeHRM");
 	
 	LogoutPage.logout();
 	Base_Class.closeApplication();

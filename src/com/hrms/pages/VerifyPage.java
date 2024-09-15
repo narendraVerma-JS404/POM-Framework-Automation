@@ -11,11 +11,13 @@ public class VerifyPage extends Base_Class{
 	public static void verifyTitle(String title) {
 	   if(driver.getTitle().equals(title)) {
 	       Reporter.log("Title matched ");
+	       System.out.println("Title matched");
 	   }
 	   else {
 	       Reporter.log("Title not matched ");
 	       Reporter.log(driver.getTitle());
 	       Log.info("Title matched");
+	       System.out.println("Title not matched");
 	   }
 }
 }
